@@ -1,0 +1,174 @@
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+  .App {
+    text-align: center;
+    max-width: 300px;
+    margin: auto;
+    font-family: 'Quicksand', sans-serif;
+  }
+}
+
+.App {
+  text-align: center;
+  max-width: 120vh;
+  margin: auto;
+  font-family: 'Quicksand', sans-serif;
+}
+
+/* Navbar */
+
+.navbar {
+  background-color: #ffe1e6;
+  padding-top: 2.75vh;
+  padding-bottom: 2.75vh;
+  padding-left: 25vh;
+  padding-right: 25vh;
+  color: white;
+  display: block;
+}
+
+.navbar a {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.5vh;
+  font-size: 2.25vh;
+}
+
+/* Home */
+.main-content {
+  color: grey;
+}
+
+.main-content-title {
+  margin-top: 100px;
+  letter-spacing: 0.75vh;
+  font-weight: bold;
+  font-size: 5.5vh;
+  -webkit-animation: colorchange 20s infinite alternate;
+}
+
+@-webkit-keyframes colorchange {
+  0% {
+    color: #C0C0C0;
+  }
+
+  25% {
+    color: #b4ddc5;
+  }
+
+  50% {
+    color: #C0C0C0;
+  }
+
+  100% {
+    color: #b4ddc5;
+  }
+}
+
+.main-content-body {
+  margin-top: 75px;
+}
+
+.main-content-body p {
+  margin-bottom: 25px;
+  margin-top: 25px;
+  font-size: 2.25vh;
+}
+
+.main-content-body #breadloaf {
+  font-size: 10vh;
+  text-decoration: none;
+}
+
+/* CorgisList */
+.corgis-list {
+  margin-top: 3vh;
+  margin-bottom: 7vh;
+}
+
+/* CorgisShow */
+
+.corgis-show {
+  color: grey;
+}
+
+.comments-show {
+  margin-top: 40px;
+}
+
+.comments-show ul {
+  list-style-type: none;
+}
+
+.comments-show li span.comment {
+  position: relative;
+  left: -25px;
+}
+
+.comments-show li span.comment {
+  position: relative;
+  left: -20px;
+}
+
+.comments-show label.likes {
+  position: relative;
+  left: -27px;
+}
+
+.comments-show button.like-button {
+  position: relative;
+  left: -20px;
+}
+
+.comments-show button.delete-button {
+  position: relative;
+  left: -15px;
+}
+
+/* Contact */
+.contact {
+  margin-top: 8vh;
+}
+
+/* Footer */
+.footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 5px;
+  max-width: 120vh;
+  margin: auto;
+  background-color: #f88379;
+  text-align: center;
+  color: white;
+}
+
+.footer p {
+  font-size: 1.5vh;
+  margin: 3px;
+}
+
+/* Contact */
+
+.contact {
+  color: grey;
+}
+
+/* All Comments */
+
+.all-comments {
+  margin-top: 100px;
+  margin-bottom: 70px;
+}
+
+/* Favorite Corgis */
+
+.favorite-corgis {
+  color: grey;
+  margin-top: 3vh;
+  margin-bottom: 7vh;
+}
